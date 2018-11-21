@@ -2,7 +2,7 @@ const a = prompt('Enter a');
 const b = prompt('Enter b');
 const c = prompt('Enter c');
 let result = quadraticEquation(a, b, c);
-alert('Answer is' + result);
+	alert('Answer is' + result);
     
 function quadraticEquation(a, b, c) {
 	if (a == 0) return "Error, а=0 Invalid value!";
